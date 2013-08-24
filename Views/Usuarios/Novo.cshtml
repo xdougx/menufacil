@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Novo";
+}
+
+<section>
+    @{Html.BeginForm("Salvar","Usuarios");}
+    <p>
+      @Html.Label("Nome")
+      @Html.TextBox("Nome")
+    </p>
+    <p><input type="submit" value="enviar" /></p>
+    @{Html.EndForm();}
+</section>
