@@ -32,7 +32,10 @@ namespace MenuFacil.Controllers
             return View(usuario);
         }
 
+        public ActionResult NovoTeste()
+        {
 
+        }
 
     }
 }
