@@ -1,0 +1,5 @@
+_ReSharper.*
+[B|b]in/
+obj/
+*.suo
+*.user
