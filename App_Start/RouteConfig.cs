@@ -15,7 +15,7 @@ namespace MenuFacil
 
             routes.MapRoute(
                 name: "Root",
-                url: "/",
+                url: "",
                 defaults: new { controller = "Site", action = "Index" }
             );
 

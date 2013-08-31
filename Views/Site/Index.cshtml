@@ -3,5 +3,31 @@
     Layout = "";
 }
 
-<h2>Index</h2>
-<div id="body"></div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Scripts/underscore.js")
+    @Scripts.Render("~/Scripts/app/sammy.js")
+    @Scripts.Render("~/Scripts/app/interface_application.js")
+    @Scripts.Render("~/Scripts/app/controllers/site_controller.js")
+    @Scripts.Render("~/Scripts/app/views/site/index.js")
+    @Scripts.Render("~/Scripts/app/routes.js")
+
+    <script type="text/javascript">
+        $(function () {
+            router.run();
+        });
+    </script>
+
+</head>
+<body>
+    <div id="body">aquiiiii</div>
+    <a id="alerta" href="#">Vai Alertar</a>
+</body>
+</html>

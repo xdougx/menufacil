@@ -1,11 +1,7 @@
 // Starts the router
 var router = Sammy('#body', function(){  
-  /*
-   * Site
-   */
-
-  // show the dashboard page
-  this.get('/usuarios/index', function(){
-    new SiteControllerController().index(this); 
-  });
+    this.get('/', function(){
+        app = new IApp();
+        app.addModules({"IndexSiteModule": new IndexSiteModule }).run(null);
+    });
 });

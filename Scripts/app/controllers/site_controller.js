@@ -4,7 +4,7 @@
             new IApp = new IApp();
 
             $.get(sammy.path).then(function (data) {
-                $("#body").html("data")
+               
             });
         }
     };

@@ -221,24 +221,29 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\app\controllers\site_controller.js" />
+    <Content Include="Scripts\app\interface_application.js" />
+    <Content Include="Scripts\app\routes.js" />
+    <Content Include="Scripts\app\sammy.js" />
     <Content Include="Scripts\app\views\site\index.js" />
-    <Content Include="Scripts\jquery-2.0.3.js" />
-    <Content Include="Scripts\jquery-2.0.3.min.js" />
-    <Content Include="Scripts\jquery-2.0.3.min.map" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery-ui-1.8.24.js" />
-    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\knockout-2.2.0.debug.js" />
-    <Content Include="Scripts\knockout-2.2.0.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\underscore.js" />
+    <Content Include="Scripts\utils\browser_detect.js" />
+    <None Include="Scripts\utils\jquery-2.0.3.intellisense.js" />
+    <Content Include="Scripts\utils\jquery-2.0.3.js" />
+    <Content Include="Scripts\utils\jquery-2.0.3.min.js" />
+    <Content Include="Scripts\utils\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\utils\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\utils\jquery.mask_money.js" />
+    <Content Include="Scripts\utils\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\utils\jquery.unobtrusive-ajax.min.js" />
+    <None Include="Scripts\utils\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\utils\jquery.validate.js" />
+    <Content Include="Scripts\utils\jquery.validate.min.js" />
+    <Content Include="Scripts\utils\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\utils\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\utils\knockout-2.2.0.debug.js" />
+    <Content Include="Scripts\utils\knockout-2.2.0.js" />
+    <Content Include="Scripts\utils\modernizr-2.6.2.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -261,6 +266,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\utils\jquery-2.0.3.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
