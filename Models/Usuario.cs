@@ -16,7 +16,7 @@ namespace MenuFacil.Models
         public string Email { get; set; }
         public string Senha { get; set; }
         
-        public Estabelcimento estabelecimento { get; set; }
+        public Estabelecimento estabelecimento { get; set; }
 
     }
 }
