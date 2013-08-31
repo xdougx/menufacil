@@ -38,13 +38,10 @@ namespace MenuFacil
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
-
-            bundles.Add(new StyleBundle("~/content/bootstrap").Include(
-                "~/Content/bootstrap/bootstrap.css",
-                "~/Content/bootstrap/bootstrap-theme.css"
-
-                
-                ));
+            bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
+                  "~/Content/bootstrap/bootstrap.css",
+                  "~/Content/bootstrap/bootstrap-theme.css"
+            ));
         }
     }
 }

@@ -1,6 +1,6 @@
 _ReSharper.*
 [B|b]in/
-obj/
+obj/*
 *.suo
 *.user
 .DS_Store
