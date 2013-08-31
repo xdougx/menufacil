@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Script.Serialization;
 
 namespace MenuFacil.Controllers
 {
@@ -15,7 +16,19 @@ namespace MenuFacil.Controllers
 
         public ActionResult Index()
         {
-            return View();
+
+            if (Request["format"] == "json")
+            {
+                JavaScriptSerializer js = new JavaScriptSerializer();
+                string json = js.Serialize(new { error = true });
+                return Content(json.ToString());
+                
+            }
+            else
+            {
+                return View();
+            }
+           
         }
 
         public ActionResult Novo()
@@ -32,10 +45,7 @@ namespace MenuFacil.Controllers
             return View(usuario);
         }
 
-        public ActionResult NovoTeste()
-        {
 
-        }
 
     }
 }

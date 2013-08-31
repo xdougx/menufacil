@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h2>@ViewBag.Format</h2>
+<div id="dahora">
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $.get("/usuarios/index", { format: "json" }).then(function (json) {
+            if (_.has(json, "error")) {
+                alert("deu erro");
+            } else {
+                alert("tudo ok");
+            }
+
+        });
+    });
+
+</script>

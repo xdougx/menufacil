@@ -12,7 +12,7 @@ namespace MenuFacil.Lib.Connection
     public class MongoSession : ISession
     {
         private Mongo _provider;
-        public MongoDatabase DB { get { return (MongoDatabase)this._provider.Database; } }
+        public MongoDatabase DB { get { return (MongoDatabase) this._provider.Database; } }
 
         public MongoSession()
         {
