@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MenuFacil.Models
 {
-    class Mesa
+    public class Mesa
     {
         public ObjectId id { get; set; }
         public string codigo { get; set; }

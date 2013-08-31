@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MenuFacil.Models
 {
-    class PlanoPagamento
+    public class PlanoPagamento
     {
         public ObjectId id { get; set; }
         public string nome { get; set; }

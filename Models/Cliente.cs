@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MenuFacil.Models
 {
-    class Cliente
+    public class Cliente
     {
         public ObjectId id { get; set; }
         public string Nome { get; set; }
