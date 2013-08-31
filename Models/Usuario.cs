@@ -15,8 +15,13 @@ namespace MenuFacil.Models
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
+<<<<<<< HEAD
         
         public Estabelecimento estabelecimento { get; set; }
+=======
+        public Estabelecimento Estabelecimento { get; set; }
+
+>>>>>>> criado respond_to para o controlle
 
     }
 }

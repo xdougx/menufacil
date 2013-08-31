@@ -11,12 +11,8 @@
 <script type="text/javascript">
     $(function () {
         $.get("/usuarios/index", { format: "json" }).then(function (json) {
-            if (_.has(json, "error")) {
-                alert("deu erro");
-            } else {
-                alert("tudo ok");
-            }
-
+            json = $.parseJSON(json);
+            alert(json.mensagem);
         });
     });
 

@@ -1,4 +1,5 @@
-﻿using MenuFacil.Lib.Connection;
+﻿using MenuFacil.Lib;
+using MenuFacil.Lib.Connection;
 using MenuFacil.Models;
 using System;
 using System.Collections.Generic;
@@ -16,19 +17,7 @@ namespace MenuFacil.Controllers
 
         public ActionResult Index()
         {
-
-            if (Request["format"] == "json")
-            {
-                JavaScriptSerializer js = new JavaScriptSerializer();
-                string json = js.Serialize(new { error = true });
-                return Content(json.ToString());
-                
-            }
-            else
-            {
-                return View();
-            }
-           
+            return Respond.To(Request["format"], new { mensagem = "aqui vem a minha mensagem" });  
         }
 
         public ActionResult Novo()

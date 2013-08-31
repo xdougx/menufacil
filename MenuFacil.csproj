@@ -159,6 +159,8 @@
     <Compile Include="Models\Qualificacao.cs" />
     <Compile Include="Models\Tag.cs" />
     <Compile Include="Models\Telefone.cs" />
+    <Compile Include="Lib\Respond.cs" />
+    <Compile Include="Models\Estabelecimento.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
