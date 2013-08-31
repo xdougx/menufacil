@@ -37,3 +37,6 @@ c:\users\douglas\documents\visual studio 2012\Projects\MenuFacil\MenuFacil\bin\S
 c:\users\douglas\documents\visual studio 2012\Projects\MenuFacil\MenuFacil\obj\Debug\MenuFacil.csprojResolveAssemblyReference.cache
 c:\users\douglas\documents\visual studio 2012\Projects\MenuFacil\MenuFacil\obj\Debug\MenuFacil.dll
 c:\users\douglas\documents\visual studio 2012\Projects\MenuFacil\MenuFacil\obj\Debug\MenuFacil.pdb
+C:\Users\Bruno\Documents\GitHub\menufacil\obj\Debug\MenuFacil.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Documents\GitHub\menufacil\obj\Debug\MenuFacil.dll
+C:\Users\Bruno\Documents\GitHub\menufacil\obj\Debug\MenuFacil.pdb

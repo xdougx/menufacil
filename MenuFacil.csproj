@@ -144,6 +144,21 @@
     </Compile>
     <Compile Include="Lib\Connection\ISession.cs" />
     <Compile Include="Lib\Connection\MongoSession.cs" />
+    <Compile Include="Models\Amigo.cs" />
+    <Compile Include="Models\Catalogo.cs" />
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Convidado.cs" />
+    <Compile Include="Models\Endereco.cs" />
+    <Compile Include="Models\Estabelecimento.cs" />
+    <Compile Include="Models\Filial.cs" />
+    <Compile Include="Models\Item.cs" />
+    <Compile Include="Models\Mesa.cs" />
+    <Compile Include="Models\Pedido.cs" />
+    <Compile Include="Models\PlanoPagamento.cs" />
+    <Compile Include="Models\Preco.cs" />
+    <Compile Include="Models\Qualificacao.cs" />
+    <Compile Include="Models\Tag.cs" />
+    <Compile Include="Models\Telefone.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
