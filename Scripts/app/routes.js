@@ -1,7 +1,10 @@
 // Starts the router
-var router = Sammy('#body', function(){  
+var router = Sammy('body', function(){  
     this.get('/', function(){
-        app = new IApp();
-        app.addModules({"IndexSiteModule": new IndexSiteModule }).run(null);
+
+    });
+
+    this.get('/#/sign_in', function () {
+      new SiteController().sign_in(this);
     });
 });
