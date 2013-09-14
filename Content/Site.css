@@ -14,6 +14,13 @@ body {
     color: #232323;
     background-color: #fff;
 }
+a {
+	color: #606060;
+}
+
+a:hover {
+	text-decoration: underline;
+}
 
 header, footer, nav, section {
   display: block;
@@ -28,20 +35,43 @@ header, footer, nav, section {
 
 header#header {
   text-align: center;
+	display: table;
+	width: 930px;
 }
 
 header#header .logo {
   text-align: left;
   padding-left: 85px;
   margin: 30px 0; 
+	float: left;
 }
 
-header#header #banner {
+header#header #menu {
+	float: right;
+	padding-right: 85px;
+	padding-top: 40px;
+}
+
+header#header #menu a {
+	width: 170px;
+	padding: 0px;
+	display: inline-block;
+}
+
+#body {
+	text-align: center;
+}
+
+#body #banner {
   width: 760px;
   height: 200px;
   background-color: #c0c0c0;
   border: solid 1px #d0d0d0; 
   display: inline-block;
+}
+
+#body section {
+	text-align: left;
 }
 
 section#heading {

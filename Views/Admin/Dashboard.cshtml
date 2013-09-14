@@ -1,4 +1,9 @@
 ﻿@{
+    ViewBag.Title = "Dashboard";
+		Layout = "";
+}
+
+@{
 	ViewBag.Title = "Index";
 	Layout = "";
 }
@@ -11,7 +16,9 @@
 	<title>@ViewBag.Title</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 	@Styles.Render("~/content/bootstrap")
-	@Styles.Render("~/Content/css")
+	@Styles.Render("~/content/font-awesome/css/font-awesome.css")
+	@Styles.Render("~/content/font-awesome/css/font-awesome-ie7.css")
+	@Styles.Render("~/content/backoffice.css")
 
 	@Scripts.Render("~/bundles/modernizr")
 	@Scripts.Render("~/bundles/jquery")
@@ -30,22 +37,22 @@
 
 </head>
 <body>
-	<div class="body">
-		<header id="header">
-			<h1 class="logo">
-				<a href="/" title="Menu Facil">
-					<img src="~/content/images/logo_menu_facil.png" width="200" />
-				</a>
-			</h1>
-			<div id="menu">
-				<a href="/#/prices">Precos</a>
-				<a href="/#/new_acount">Criar Conta</a>
-				<a href="/#/sign_in">Login</a>
-			</div>
-		</header>
-		<div id="body"></div>
+	<header id="header">
+		<div>
+			<a><i class="icon-home"></i> Dashboard</a>
+			<a><i class="icon-food"></i> Filiais</a>
+			<a><i class="icon-group"></i> Funcionários</a>
+			<a><i class="icon-cogs"></i> Conta</a>
+			<a><i class="icon-signout"></i> Sair</a>
+		</div>
+	</header>
+	<div class="content">
+
+		<div id="body">
+
+		</div>
 		<footer id="footer">
-			<i class="icon-th-large" style="font-size: 500px;"></i>
+			here is my footer :)
 		</footer>
 	</div>
 </body>
