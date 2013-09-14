@@ -1,0 +1,24 @@
+﻿@model MenuFacil.Models.Filial
+@{
+    ViewBag.Title = "Cadastrar Filial";
+		Layout = "";
+		@Styles.Render("~/content/bootstrap")
+}
+
+<form role="form" class="col-md-4" action="/filial/salvar">
+	<div class="form-group">
+		<input  class="form-control" type="text" name="apelido" placeholder="Apelido para a Filial">
+	</div>
+	<div class="form-group">
+		<input  class="form-control" type="text" name="razao_social" placeholder="Razao Social">
+	</div>
+	<div class="form-group">
+		<input  class="form-control" type="text" name="cnpj" placeholder="CNPJ">
+	</div>
+	<div class="form-group">
+		<button type="submit" class="btn btn-primary">Salvar Filial</button>
+	</div>
+</form>
+<script>
+	$("form").attr("role", "form" )
+</script>
