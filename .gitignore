@@ -4,4 +4,5 @@ obj/*
 obj/*/*
 *.suo
 *.user
+._.DS_Store
 .DS_Store
