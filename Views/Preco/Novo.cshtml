@@ -1,0 +1,24 @@
+﻿@model MenuFacil.Models.Preco
+@{
+    ViewBag.Title = "Cadastrar Preco";
+		Layout = "";
+		@Styles.Render("~/content/bootstrap")
+}
+<h2>Cadastrar Preco</h2>
+<form role="form" method="POST" class="col-md-4" action="/filial/salvar">
+	<div class="form-group">
+		<input  class="form-control" type="text" name="nome" placeholder="Nome do produto">
+	</div>
+	<div class="form-group">
+		<input  class="form-control" type="text" name="descricao" placeholder="Descricao">
+	</div>
+	<div class="form-group">
+		<input  class="form-control" type="text" name="valor" placeholder="Preco">
+	</div>
+	<div class="form-group">
+		<button type="submit" class="btn btn-primary">Salvar Preco</button>
+	</div>
+</form>
+<script>
+	$("form").attr("role", "form" )
+</script>

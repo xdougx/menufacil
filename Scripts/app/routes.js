@@ -16,3 +16,13 @@ var router = Sammy('body', function () {
 		new SiteController().prices(this);
 	});
 });
+
+var admin = Sammy('body', function () {
+	this.get('/admin', function () {
+		new AdminController().dashboard(this);
+	});
+
+	this.get('/admin/#/filiais', function () {
+		new FilialController().index(this);
+	});
+});

@@ -13,6 +13,7 @@ namespace MenuFacil.Models
         public string apelido { get; set; }
         public string razao_social { get; set; }
         public string cnpj { get; set; }
-
+				public string foto { get; set; }
+				public string status { get; set; }
     }
-}
+} 

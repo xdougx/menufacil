@@ -6,13 +6,17 @@ using System.Web.Mvc;
 
 namespace MenuFacil.Controllers
 {
-    public class AdminController : Controller
-    {
+	public class AdminController : Controller
+	{
 
-        public ActionResult Dashboard()
-        {
-            return View();
-        }
+		public ActionResult Index()
+		{
+			return View();
+		}
+		public ActionResult Dashboard()
+		{
+			return View();
+		}
 
-    }
+	}
 }
